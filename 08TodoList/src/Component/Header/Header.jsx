@@ -8,8 +8,8 @@ export default function Header() {
             {/* logo  */}
             <Link to="/" className="flex items-center">
               <img
-                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                className="mr-3 h-12"
+                src="./src/assets/logo6.png"
+                className="mr-3 h-10"
                 alt="Logo"
               />
             </Link>
@@ -48,7 +48,7 @@ export default function Header() {
                 </li>
                 <li>
                   <NavLink
-                    to="/About"
+                    to="/TodoList"
                     className={(isActive) =>
                       `block py-2 pr-4 pl-3 duration-200 ${
                         isActive ? "text-gray-700" : "text-gray-700"
