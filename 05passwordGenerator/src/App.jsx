@@ -40,7 +40,7 @@ function App() {
     <>
       <div className='fixed inset-0 flex items-center justify-center'>
         <div className='w-full max-w-md max-auto shadow-md rounded-lg px-4  py-3  bg-gray-800 text-orange-500'>
-          <h1 className='text-white text-cente my-3'>Password Generator</h1>
+          <h1 className='text-white text-center my-3'>Password Generator</h1>
           <div className='flex shaddow rounded-lg overflow-hidden mb-4'>
             <input
               type="text"

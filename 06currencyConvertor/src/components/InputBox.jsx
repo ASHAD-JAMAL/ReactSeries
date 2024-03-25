@@ -48,6 +48,7 @@ function InputBox({  //below these all are inputs
                 >
                     {currencyOptions.map((currency) =>
                     (
+                        // if we need to repeat element and want to perfomace then we should use key 
                         <option key={currency} value=
                             {currency}>
                             {currency}
